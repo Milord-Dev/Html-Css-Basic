@@ -1,4 +1,13 @@
+/** CSS GENERAL EN ELEMENTOS */
 body{
     background-color: #303030;
+    font-family: Geolical, sans-serif;
     color: #ffffff;
+}
+h3{
+    color:#ccc5b9;
+}
+/** CSS CON CLASS */
+.hastag{
+    color: #EFC88B;
 }
