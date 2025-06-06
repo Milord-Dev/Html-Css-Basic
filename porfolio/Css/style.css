@@ -7,7 +7,10 @@ body{
 h3{
     color:#ccc5b9;
 }
-/** CSS CON CLASS */
+/** CSS CON CLASS Y ID */
 .hastag{
     color: #EFC88B;
+}
+#experiencie-skill-container{
+    background-color: #EA671A;
 }

@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-    <header>
+    <!--Bloque de navegacion-->
+    <header id="nav-container">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -18,13 +19,16 @@
         </nav>
     </header>
     <main>
+
         <!--Bloque de inicio-->
-        <div>
+        <div id="starting-block-container">
             <h2>Ricardo Milord</h2>
             <h3 class="hastag">#Developer</h3>
             <h3 class="hastag">#Producer</h3>
         </div>
-        <div>
+
+        <!--Seccion de About me-->
+        <div id="about-me-container">
             <h2>About Me</h2>
             <img src="assets/img/perfil.jpg" alt="Foto de Perfil" height="150" width="180">
             <p>
@@ -34,8 +38,9 @@
             </p>
             <p><cite>"Aprender, crear y mejorar — siempre en movimiento."</cite></p>
         </div>
+
         <!--Seccion de porfolio-->
-        <div>
+        <div id="pofolio-container">
             <h2>Porfolio</h2>
             <h3>"Algunos de los proyectos en los que he trabajado recientemente."</h3>
             <table>
@@ -48,13 +53,72 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Pagina Web</td>
-                        <td>Lagoon - Elay (Sencillo)</td>
-                        <td>Cartel</td>
+                        <td>
+                            <h4>Pagina Web</h4>
+                            <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+                        </td>
+                        <td>
+                            <h4>Lagoon - Elay (Sencillo)</h4>
+                            <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+                        </td>
+                        <td>
+                            <h4>Cartel</h4>
+                            <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
+
+        <!--Seccion de experiencia-->
+        <div id="experiencie-skill-container">
+            <h2>Experience & Skill</h2>
+            <h3>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</h3>
+            <table id="table-experience">
+                <thead>
+                    <tr>
+                        <th colspan="1">Python</th>
+                        <th colspan="1">C#</th>
+                        <th colspan="1">JavaScript</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h4>Pagina Web - Ecommerce</h4>
+                            <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+                        </td>
+                        <td>
+                            <h4>Pagina Web - Banco</h4>
+                            <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+                        </td>
+                        <td>
+                            <h4>Pagina Web - Casa de Apuestas</h4>
+                            <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--Seccion de contacto-->
+        <div id="contac-container">
+            <h2>Contact</h2>
+            <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+            <form action="">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="text" name="company" id="company" placeholder="Company">
+                <textarea name="message" id="message" cols="30" rows="1" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </main>
+
+    <!--Seccion Footer-->
+    <footer>
+        <p>© 2025 Ricardo Milord</p>
+        <p>Praesent luctus tristique finibus. Praesent dolor ante, convallis et nisi lacinia, tincidunt condimentum lorem. Lorem ipsum.</p>
+    </footer>
 </body>
 </html>
