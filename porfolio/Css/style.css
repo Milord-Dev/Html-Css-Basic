@@ -4,6 +4,19 @@ body{
     font-family: Geolical, sans-serif;
     color: #ffffff;
 }
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 h3{
     color:#ccc5b9;
 }
@@ -11,6 +24,28 @@ h3{
 .hastag{
     color: #EFC88B;
 }
+
+#pofolio-container{
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
 #experiencie-skill-container{
     background-color: #EA671A;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+#contact-container{
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+#footer-container{
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: white;
 }
