@@ -17,7 +17,16 @@ h3{
     color: #EFC88B;
 }
 
+#about-me-container{
+    text-align: justify;
+}
+
+#pofolio-container{
+    text-align: center;
+}
+
 #experiencie-skill-container{
     background-color: #EA671A;
     color: #ffffff;
+    text-align: center;
 }
