@@ -1,15 +1,19 @@
 /** CSS GENERAL EN ELEMENTOS */
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-color: #303030;
-    font: 200 14px Geolical, sans-serif;
-    color: #ffffff;
+    font: 200 14px montserrat, sans-serif;
+    color: #f1f0f0;
 }
+
+h2{
+    font-size: 28px
+}
+
 h3{
     color: #ccc5b9;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 /** CSS ELEMENTOS CON ID Y CLASS */
@@ -17,12 +21,8 @@ h3{
     color: #EFC88B;
 }
 
-#about-me-container{
-    text-align: justify;
-}
-
-#pofolio-container{
-    text-align: center;
+.semi-bold-p{
+    font-weight: 600;
 }
 
 #experiencie-skill-container{
