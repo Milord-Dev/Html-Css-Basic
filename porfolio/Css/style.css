@@ -1,5 +1,10 @@
-/** CSS GENERAL EN ELEMENTOS */
+/** SELECTOR UNIVERSSAL */
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
+/** CSS GENERAL EN ELEMENTOS */
 body{
     background-color: #303030;
     font: 200 14px montserrat, sans-serif;
