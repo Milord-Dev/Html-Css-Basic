@@ -24,7 +24,10 @@ h3{
 
 /** CSS ELEMENTOS CON ID Y CLASS */
 .hastag{
+    margin-top: 10px;
     color: #EFC88B;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .semi-bold-p{
@@ -32,8 +35,26 @@ h3{
 }
 
 .section-container{
-    padding: 10px 100px 10px 100px;
+    padding: 10px 70px 10px 70px;
 }
+
+#header-container{
+    text-align: center;
+}
+
+#starting-block-container{
+    background-image: url(../assets/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+}
+
+#starting-block-title{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
 #experiencie-skill-container{
     background-color: #EA671A;
     color: #ffffff;
