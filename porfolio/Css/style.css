@@ -9,7 +9,7 @@ body{
     background-color: #303030;
     font: 200 14px montserrat, sans-serif;
     color: #ffffff;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 h2{
@@ -25,6 +25,7 @@ h3{
 }
 
 /** CSS ELEMENTOS CON ID Y CLASS */
+/** CLASS */
 .hastag{
     margin-top: 10px;
     color: #EFC88B;
@@ -50,6 +51,23 @@ h3{
     font-weight: 600;
 }
 
+.card-digital{
+    background-color: #303030;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3%;
+}
+.card-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 3%;
+}
+
+.section-title-sub-title{
+    text-align: center;
+}
+
+/** ID */
 #header-container{
     text-align: center;
 }
@@ -70,7 +88,6 @@ h3{
 #experience-skill-container{
     background-color: #EA671A;
     color: #ffffff;
-    text-align: center;
 }
 
 #porfolio-container{
