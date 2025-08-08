@@ -91,7 +91,7 @@ h3{
 
 .card-digital a i{
 /*Iconos mas grandes*/
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .section-title-sub-title{
@@ -117,8 +117,14 @@ h3{
 }
 
 #experience-skill-container{
-    background-color: #EA671A;
+    background-color: #E96C1C;
     color: #ffffff;
+}
+
+#linea-division{
+    border: 0;
+    height: 1px;
+    background-color: #E96C1C;
 }
 
 #porfolio-container{
