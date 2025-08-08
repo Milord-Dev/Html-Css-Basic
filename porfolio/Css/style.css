@@ -52,7 +52,7 @@ h3{
 }
 
 .card-digital{
-    /* Estilos generales para el fondo y la forma de la tarjeta */
+/* Estilos generales para el fondo y la forma de la tarjeta */
     background-color: #303030;
     padding: 20px;
     border-radius: 8px;
@@ -64,7 +64,9 @@ h3{
     min-height: 350px;
     font-family: Montserrat, sans-serif;
 }
+
 .card-img{
+/*Estilo para la imagen*/
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -80,7 +82,16 @@ h3{
 }
 
 .card-digital a {
-    
+/*Estilo para la los iconos*/
+    text-decoration: none;
+    color: #EFC88B;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.card-digital a i{
+/*Iconos mas grandes*/
+    font-size: 24px;
 }
 
 .section-title-sub-title{
