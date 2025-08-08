@@ -52,15 +52,35 @@ h3{
 }
 
 .card-digital{
+    /* Estilos generales para el fondo y la forma de la tarjeta */
     background-color: #303030;
-    text-align: center;
     padding: 20px;
-    border-radius: 3%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+    /* Controla el ancho de la tarjeta */
+    width: 250px;
+    min-height: 350px;
+    font-family: Montserrat, sans-serif;
 }
 .card-img{
-    width: 200px;
-    height: 150px;
-    border-radius: 3%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #EFC88B;
+    margin-bottom: 15px;
+}
+
+.card-digital p{
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+
+.card-digital a {
+    
 }
 
 .section-title-sub-title{
@@ -97,7 +117,7 @@ h3{
 #table-experience{
     width: 100%;
     max-width: 1000px;
-    margin: 20px;
+    margin: 20px auto;
     border-collapse: separate;
     border-spacing: 20px;
 }
