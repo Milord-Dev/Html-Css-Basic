@@ -24,6 +24,14 @@ h3{
     font-weight: 300;
 }
 
+a:any-link{
+    color: #EFC88B;
+}
+
+i:hover{
+    color:#f1f0f0
+}
+
 /** CSS ELEMENTOS CON ID Y CLASS */
 /** CLASS */
 .hastag{
