@@ -150,6 +150,11 @@ i:hover{
     border-top: 1px solid #E96C1C;
 }
 
+#description{
+    margin-top: 20px;
+    text-align: justify;
+}
+
 #table-experience{
     width: 100%;
     max-width: 1000px;
