@@ -69,7 +69,7 @@ i:hover{
 
     /* Controla el ancho de la tarjeta */
     width: 250px;
-    min-height: 350px;
+    height: 400px;
     font-family: Montserrat, sans-serif;
 }
 
