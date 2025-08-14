@@ -57,6 +57,11 @@ i:hover{
     list-style: none;
 }
 
+.nav-container li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
 .nav-container a{
     text-decoration: none;
     color: #f1f0f0;
@@ -113,13 +118,14 @@ i:hover{
 /** ID */
 #header-container{
     text-align: center;
+    margin: 10px;
 }
 
 #starting-block-container{
     background-image: url(../assets/img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 280px;
+    height: 300px;
 }
 
 #starting-block-title{
