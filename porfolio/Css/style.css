@@ -68,6 +68,10 @@ i:hover{
     font-weight: 600;
 }
 
+.nav-container a:hover{
+    color: #EFC88B;
+}
+
 .card-digital{
 /* Estilos generales para el fondo y la forma de la tarjeta */
     background-color: #303030;
