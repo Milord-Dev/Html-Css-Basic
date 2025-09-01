@@ -118,7 +118,11 @@ i:hover{
 /** ID */
 #header-container{
     text-align: center;
-    margin: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: #303030;
+    padding: 10px 0;
+    z-index: 1000;
 }
 
 #starting-block-container{
@@ -126,6 +130,7 @@ i:hover{
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    padding-top: 30px;
 }
 
 #starting-block-title{
