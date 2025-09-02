@@ -72,6 +72,15 @@ i:hover{
     color: #EFC88B;
 }
 
+.cards-portfolio{
+    width: 300px;
+    background-color: #E96C1C;
+}
+
+.cards-portfolio h3{
+    color: #ffffff;
+}
+
 .card-digital{
 /* Estilos generales para el fondo y la forma de la tarjeta */
     background-color: #303030;
