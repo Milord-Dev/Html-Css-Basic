@@ -72,9 +72,17 @@ i:hover{
     color: #EFC88B;
 }
 
+.row-portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .cards-portfolio{
     width: 300px;
     background-color: #E96C1C;
+    
 }
 
 .cards-portfolio h3{
