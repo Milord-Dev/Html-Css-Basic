@@ -77,16 +77,40 @@ i:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px 20px;
+    margin-bottom: 60px;
 }
 
 .cards-portfolio{
-    width: 300px;
+    margin-top: 30px;
+    width: 350px;
     background-color: #E96C1C;
-    
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
-.cards-portfolio h3{
+.card-img{
+/*Estilo para la imagen*/
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #EFC88B;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.divider{
+    border: 0;
+    height: 0.8px;
+    background-color:#ffffff;
+    margin: 10px 15px;
+}
+
+.cards-portfolio h3, .cards-portfolio p{
     color: #ffffff;
+    padding: 0 15px;
 }
 
 .card-digital{
@@ -101,16 +125,6 @@ i:hover{
     width: 250px;
     height: 400px;
     font-family: Montserrat, sans-serif;
-}
-
-.card-img{
-/*Estilo para la imagen*/
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #EFC88B;
-    margin-bottom: 15px;
 }
 
 .card-digital p{
