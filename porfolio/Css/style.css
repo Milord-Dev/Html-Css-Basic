@@ -218,3 +218,14 @@ i:hover{
 #about-me-quote{
     margin-top: 20px;
 }
+
+#btn-download-cv{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #E96C1C;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
