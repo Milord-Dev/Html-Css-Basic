@@ -165,6 +165,10 @@ i:hover{
     color: #EFC88B;
 }
 
+#portfolio-container{
+    margin: 20px 0;
+}
+
 #experience-skill-container{
     background-color: #E96C1C;
     color: #ffffff;
