@@ -170,6 +170,12 @@ i:hover{
     text-align: left;
 }
 
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /** ID */
 #header-container{
     text-align: center;
