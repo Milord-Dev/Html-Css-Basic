@@ -151,6 +151,20 @@ i:hover{
     margin-top: 15px;
 }
 
+.img-exp{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.card-exp ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
 .text-izq{
     margin-top: 10px;
     text-align: left;
