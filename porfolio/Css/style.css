@@ -151,6 +151,11 @@ i:hover{
     margin-top: 15px;
 }
 
+.text-izq{
+    margin-top: 10px;
+    text-align: left;
+}
+
 /** ID */
 #header-container{
     text-align: center;
