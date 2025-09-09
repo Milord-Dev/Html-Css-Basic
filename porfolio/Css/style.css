@@ -49,6 +49,7 @@ i:hover{
     font-weight: 600;
 }
 
+/* Apartado del Header */
 .section-container{
     padding: 10px 70px 10px 70px;
 }
@@ -76,6 +77,7 @@ i:hover{
     text-align: center;
 }
 
+/* Apartado de portfolio */
 .row-portfolio{
     display: flex;
     flex-direction: row;
@@ -129,8 +131,24 @@ i:hover{
     font-size: 20px;
 }
 
+/* Apartado de experiencia */
+.grid-container-exp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .card-exp{
     background-color: #303030;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card-exp p{
+    margin-top: 15px;
 }
 
 /** ID */
