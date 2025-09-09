@@ -129,6 +129,10 @@ i:hover{
     font-size: 20px;
 }
 
+.card-exp{
+    background-color: #303030;
+}
+
 /** ID */
 #header-container{
     text-align: center;
