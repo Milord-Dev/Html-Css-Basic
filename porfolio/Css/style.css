@@ -182,6 +182,25 @@ i:hover{
     font-size: 18px;
 }
 
+.contact-form input, .contact-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #E96C1C;
+    color: #fff;
+    border: none;
+    padding: 10px 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-self: end;
+}
+
 /** ID */
 #header-container{
     text-align: center;
@@ -289,6 +308,11 @@ i:hover{
 }
 #container-form{
     margin-top: 50px;
+}
+
+#contact-container h2{
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 
 #contact-container{
