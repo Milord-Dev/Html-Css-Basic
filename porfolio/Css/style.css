@@ -171,9 +171,15 @@ i:hover{
 }
 
 .contact-form{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 100px 700px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    font-weight: 600;
+    font-size: 18px;
 }
 
 /** ID */
@@ -281,6 +287,10 @@ i:hover{
     border-radius: 8px;
     font-weight: 600;
 }
+#container-form{
+    margin-top: 50px;
+}
+
 #contact-container{
     background-image: url(../assets/img/contact-backgroung.jpg);
     background-repeat: no-repeat;
