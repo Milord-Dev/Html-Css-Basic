@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /** CSS GENERAL EN ELEMENTOS */
@@ -89,8 +90,10 @@ i:hover{
 }
 
 .cards-portfolio{
-    width: 350px;
-    height: 420px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    min-height: 420px;
     background-color: #000000;
     padding: 10px;
     border-radius: 8px;
@@ -172,9 +175,13 @@ i:hover{
 
 .contact-form{
     display: grid;
-    grid-template-columns: 100px 700px;
+    grid-template-columns: 100px 1fr;
     justify-content: center;
+    gap: 10px;
     margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-form label{
@@ -209,12 +216,14 @@ button[type="submit"] {
     background-color: #303030;
     padding: 10px 0;
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 #starting-block-container{
     background-image: url(../assets/img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 300px;
     padding-top: 50px;
 }
@@ -266,6 +275,7 @@ button[type="submit"] {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    align-items: flex-start;
 }
 
 #about-me-image{
@@ -273,6 +283,7 @@ button[type="submit"] {
     height: 290px;
     border-radius: 10px;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 #about-me-text{
@@ -306,6 +317,7 @@ button[type="submit"] {
     border-radius: 8px;
     font-weight: 600;
 }
+
 #container-form{
     margin-top: 50px;
 }
@@ -313,12 +325,220 @@ button[type="submit"] {
 #contact-container h2{
     margin-bottom: 20px;
     font-size: 40px;
+    text-align: center;
+}
+
+#contact-container h3{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #contact-container{
     background-image: url(../assets/img/contact-backgroung.jpg);
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
+    background-position: center;
     height: 700px;
     padding-top: 50px;
+}
+
+/* MEDIA QUERIES PARA RESPONSIVE DESIGN */
+
+/* Tablet y pantallas medianas (768px y menos) */
+@media (max-width: 768px) {
+    /* Reducir padding general */
+    section {
+        padding: 10px 30px;
+    }
+    
+    .section-container {
+        padding: 10px 30px;
+    }
+    
+    /* Header navegación más compacta */
+    .nav-container li {
+        margin-right: 15px;
+    }
+    
+    .nav-container a {
+        font-size: 14px;
+    }
+    
+    /* About me section - cambiar a columna */
+    #about-me-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #about-me-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    #about-me-text {
+        text-align: left;
+    }
+    
+    /* Portfolio - ajustar tarjetas */
+    .row-portfolio {
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .cards-portfolio {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    /* Grid de experiencia */
+    .grid-container-exp {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    
+    /* Formulario de contacto */
+    .contact-form {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .contact-form label {
+        margin-bottom: 5px;
+    }
+    
+    button[type="submit"] {
+        justify-self: center;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    /* Títulos más pequeños */
+    h2 {
+        font-size: 24px;
+    }
+    
+    #starting-block-title {
+        font-size: 40px;
+    }
+    
+    #contact-container h2 {
+        font-size: 32px;
+    }
+}
+
+/* Móviles (480px y menos) */
+@media (max-width: 480px) {
+    /* Padding aún más reducido */
+    section {
+        padding: 10px 15px;
+    }
+    
+    .section-container {
+        padding: 10px 15px;
+    }
+    
+    /* Header navegación móvil */
+    .nav-container li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .nav-container {
+        text-align: center;
+    }
+    
+    /* Títulos responsivos */
+    #starting-block-title {
+        font-size: 32px;
+        margin-top: 50px;
+    }
+    
+    .hastag {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    /* About me imagen más pequeña */
+    #about-me-image {
+        width: 150px;
+        height: 150px;
+    }
+    
+    /* Portfolio cards stack completamente */
+    .cards-portfolio {
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+    }
+    
+    /* Formulario más compacto */
+    .contact-form input, 
+    .contact-form textarea {
+        font-size: 14px;
+    }
+    
+    /* Altura de secciones con background */
+    #starting-block-container {
+        height: 250px;
+    }
+    
+    #contact-container {
+        height: auto;
+        min-height: 500px;
+        padding-bottom: 30px;
+    }
+    
+    /* Iconos sociales */
+    #social-icons-container {
+        font-size: 16px;
+    }
+    
+    #social-icons-container a {
+        margin-right: 10px;
+    }
+}
+
+/* Móviles muy pequeños (320px y menos) */
+@media (max-width: 320px) {
+    section {
+        padding: 5px 10px;
+    }
+    
+    .section-container {
+        padding: 5px 10px;
+    }
+    
+    #starting-block-title {
+        font-size: 28px;
+    }
+    
+    .hastag {
+        font-size: 18px;
+    }
+    
+    .cards-portfolio {
+        padding: 8px;
+    }
+    
+    #about-me-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .contact-form input, 
+    .contact-form textarea {
+        font-size: 12px;
+    }
 }
