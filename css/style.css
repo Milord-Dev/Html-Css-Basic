@@ -284,7 +284,7 @@
 
         #about-me-text h2 {
             font-size: 26px;
-            margin-top: 10px;
+            margin-top: 20px;
             margin-bottom: 20px;
         }
 
@@ -296,18 +296,6 @@
 
         #about-me-quote{
             margin-top: 20px;
-        }
-
-        #btn-download-cv{
-            margin-top: 15px;
-            display: inline-block;
-            padding: 10px 15px;
-            background-color: #E96C1C;
-            color: #ffffff;
-            border: none;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: 600;
         }
 
         #container-form{
